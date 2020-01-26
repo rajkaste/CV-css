@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  color: #66bfbf;
+  margin: 100px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #0492c2;;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+.intro{
+  width: 30%
+  font-size: 1.1rem;
+}
+p{
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+.spanpro{
+  /*color: #0492c2;*/
+  color: #00008B;
+}
+#pp{
+  border-radius: 40%;
+  width: 20%;
+}
+.cd{
+width: 55%;
+float: left;
+margin-right: 30px;
+}
+.top{
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 50px;
+}
+.middle{
+  margin: 80px 0;
+}
+.skill-row{
+  width: 50%;
+  margin: 10px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+.cp{
+  color: black;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+.tc{
+position: absolute;
+right: 300px;
+top: 50px;
+width: 10%;
+}
+.bc{
+position: absolute;
+width: 10%;
+bottom: 440px;
+left: 300px;
+}
+.mt{
+  width: 50%
+}
+.bottom{
+  background-color: #e4f9f5;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 50px 0 20px;
+}
+.contact-me{
+  margin-top: 30px;
+}
+.btn{
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.btn:hover{
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.btn{
+	position:relative;
+	top:1px;
+}
